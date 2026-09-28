@@ -1,0 +1,35 @@
+# Laravel & Composer
+workspace/vendor/
+/workspace/vendor/
+vendor/
+/vendor/
+workspace/node_modules/
+/workspace/node_modules/
+node_modules/
+/node_modules/
+workspace/public/hot
+workspace/public/storage
+
+# Environment & Secrets
+workspace/.env
+/workspace/.env
+workspace/.env.backup
+.env
+.env.backup
+workspace/storage/*.key
+
+# Caches & Logs
+workspace/.phpunit.result.cache
+workspace/storage/logs/*.log
+workspace/storage/framework/cache/data/*
+workspace/storage/framework/sessions/*
+workspace/storage/framework/views/*
+npm-debug.log
+yarn-error.log
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
